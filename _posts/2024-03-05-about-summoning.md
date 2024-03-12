@@ -19,7 +19,7 @@ had about 20,000 lines of gdscript. The last major game systems to implement are
 questing and dialogue. Other systems need a second pass and even more polish, but are usable right now. For example -
 combat is functional, but not very flashy or polished. This doesn't mean the game is close to release, but rather
 it is ready for a full content phase where the actual assets and content are created and implemented. Locations,
-items, quests, dialogue, environments etc etc.
+items, quests, characters, enemies, dialogue etc etc.
 
 So anyway, thanks for reading and following along with the project! For screenshots and
 other FAQ check out the [game's page]({% link summoning.md %}).
