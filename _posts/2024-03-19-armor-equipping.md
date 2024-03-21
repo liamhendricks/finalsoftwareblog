@@ -35,7 +35,7 @@ zero issues.
 
 {% include bilboard_image.html image-path="/assets/armor-equipping6.png" %}
 
-I wanted all of my armor sets to be interchangeable. Meaning a character could be wearing the gloves from one set, and the chest
+I wanted all of my armor sets to be interchangeable. Meaning a character could be wearing the gloves from one set, the chest
 from another set, the boots from another different set and so on. I realized that in order to make this work properly and keep
 the models from interacting oddly (pants showing through a robe, etc etc) I would have to create and follow a few standards. I
 created these rules arbitrarily, and your game may want to do it differently.
