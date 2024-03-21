@@ -14,8 +14,13 @@ with aspirations to release a full featured game someday.
 
 My current project is called [Summoning]({% link summoning.md %}). An open world action RPG with a retro art style created with
 open source tools like the Godot game engine, Blender, Gimp, Audacity and - of course - the Linux
-operating system. The project has over 20,000 lines of GDScript and growing! But, as a (mostly) solo
+operating system. The project has over 20,000 lines of GDScript and C++! But, as a (mostly) solo
 dev, I have had to develop skills beyond just programming. I do my own 3D modeling, texturing,
 rigging and animating in Blender. My own sound creation and mixing in Audacity. The list goes on...
+
+Here are some links...
+
+[LINKED IN](https://www.linkedin.com/in/liam-hendricks-ab2a87bb/)
+[TWITTER](https://twitter.com/fsoftwaredev)
 
 {% include cropped_image.html image-path="/assets/me.jpg" %}
