@@ -6,7 +6,7 @@ tag: summoning
 
 {% include bilboard_image.html image-path="/assets/armor-equipping1.png" %}
 
-# Armor Equpping in 3D
+# Armor Equpping in 3D -
 
 I'd like to share the techniques and strategies for how Summoning implemented armor equipping on our 3D characters. I thought this
 would be an interesting topic because it is so central to the idea of RPGs, and also there is not a lot of good information about

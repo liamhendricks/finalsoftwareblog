@@ -27,7 +27,7 @@ navigation in buildings.
 
 {% include bilboard_image.html image-path="/assets/indoor-outdoor2.png" %}
 
-The idea is to create a navigation mesh for each building, and then use [NavigationLink3D]() to allow for Navigation between each
+The idea is to create a navigation mesh for each building, and then use [NavigationLink3D](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationlinks.html) to allow for Navigation between each
 building and the terrain. This will allow me to create and maintain each building's nav mesh in it's own scene and then just worry
 about the link in the open world. The main downside I have discovered is that ensuring the NavigationLink works is more of an art
 than a science. Placing the endpoints of the link requires a fair amount of trial and error, and manual testing to make sure
