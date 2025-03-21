@@ -41,9 +41,20 @@ for a playable demo in the future.
 
   <h3>Dev screenshots</h3>
 
-{% include bilboard_image.html image-path="/assets/character-creation1.png" %}
-{% include bilboard_image.html image-path="/assets/action-combat.png" %}
+{% include bilboard_image.html image-path="/assets/character-creation3.png" %}
+{% include bilboard_image.html image-path="/assets/character-creation4.png" %}
+{% include bilboard_image.html image-path="/assets/statue.png" %}
+{% include bilboard_image.html image-path="/assets/ss1.png" %}
+{% include bilboard_image.html image-path="/assets/ss9.png" %}
+{% include bilboard_image.html image-path="/assets/ss2.png" %}
+{% include bilboard_image.html image-path="/assets/ss10.png" %}
 {% include bilboard_image.html image-path="/assets/assets1.png" %}
+{% include bilboard_image.html image-path="/assets/ss3.png" %}
+{% include bilboard_image.html image-path="/assets/ss4.png" %}
+{% include bilboard_image.html image-path="/assets/ss5.png" %}
+{% include bilboard_image.html image-path="/assets/ss6.png" %}
 {% include bilboard_image.html image-path="/assets/assets2.png" %}
+{% include bilboard_image.html image-path="/assets/ss7.png" %}
+{% include bilboard_image.html image-path="/assets/ss8.png" %}
 
 </section>

@@ -23,4 +23,4 @@ Here are some links...
 [LINKED IN](https://www.linkedin.com/in/liam-hendricks-ab2a87bb/)
 [TWITTER](https://twitter.com/fsoftwaredev)
 
-{% include cropped_image.html image-path="/assets/me.jpg" %}
+{% include cropped_image.html image-path="/assets/me2.jpg" %}
