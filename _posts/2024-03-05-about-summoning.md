@@ -4,7 +4,7 @@ published: true
 tag: summoning
 ---
 
-{% include bilboard_image.html image-path="/assets/splash.png" %}
+{% include bilboard_image.html image-path="/assets/splash-new.png" %}
 
 # What is Summoning?
 
@@ -15,9 +15,9 @@ of game. I'm not trying to make just another love-letter to my favourite retro g
 be explored in a genre that only sees a true masterpiece once every 20 years, and is rarely made by small
 indie studios (for good reason I suppose). The project is almost out of proof of concept phase and looking
 towards a playable demo soon. TONS of work has been done building and refining gameplay systems and last count
-had about 20,000 lines of gdscript. The last major game systems to implement are global navigation (nearly done),
-questing and dialogue. Other systems need a second pass and even more polish, but are usable right now. For example -
-combat is functional, but not very flashy or polished. This doesn't mean the game is close to release, but rather
+had about 40,000 lines of gdscript. All major game systems have been implemented to more or less functional
+states. Many need a second pass or some polish, but are usable right now. For example -
+combat is functional, but not very flashy or juicy. This doesn't mean the game is close to release, but rather
 it is ready for a full content phase where the actual assets and content are created and implemented. Locations,
 items, quests, characters, enemies, dialogue etc etc.
 

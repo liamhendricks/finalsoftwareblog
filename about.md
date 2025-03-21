@@ -4,7 +4,7 @@ title: About
 ---
 
 
-My name is Liam Hendricks, a software developer generalist with nearly a decade of professional
+My name is Liam Hendricks, a software developer generalist with over a decade of professional
 experience.
 
 I like to consider myself a generalist because I have a variety of experiences and interests.
@@ -14,11 +14,11 @@ with aspirations to release a full featured game someday.
 
 My current project is called [Summoning]({% link summoning.md %}). An open world action RPG with a retro art style created with
 open source tools like the Godot game engine, Blender, Gimp, Audacity and - of course - the Linux
-operating system. The project has over 20,000 lines of GDScript and C++! But, as a (mostly) solo
-dev, I have had to develop skills beyond just programming. I do my own 3D modeling, texturing,
-rigging and animating in Blender. My own sound creation and mixing in Audacity. The list goes on...
+operating system. The project has over 40,000 lines of GDScript and C++ as of writing this! But, as a
+(mostly) solo dev, I have had to develop skills beyond just programming. I do my own 3D modeling, texturing,
+rigging and animating in Blender and my own sound design and mixing in Audacity.
 
-Here are some links...
+Thanks for stopping by, here are some links...
 
 [LINKED IN](https://www.linkedin.com/in/liam-hendricks-ab2a87bb/)
 [TWITTER](https://twitter.com/fsoftwaredev)
