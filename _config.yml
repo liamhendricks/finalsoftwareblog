@@ -21,6 +21,11 @@ defaults:
     values:
       layout: "post"
 
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+
 future: true
 plugins:
   - jekyll-seo-tag
