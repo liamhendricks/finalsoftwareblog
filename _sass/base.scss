@@ -294,3 +294,116 @@ a:active, a:focus {
   height: 100%;
   border: 0;
 }
+
+// Variables for easy theming
+$search-border-color: #a2a9b1;
+$search-border-focus: #36c;
+$search-icon-color: #54595d;
+$search-bg: #fff;
+$search-font: sans-serif;
+
+$search-border-color: #a2a9b1;
+$search-border-focus: #36c;
+$search-icon-color: #54595d;
+$search-bg: #fff;
+$search-font: sans-serif;
+
+#search.custom-search {
+  position: relative;
+  margin: 0 auto;
+  font-family: $search-font;
+
+  // Style the input injected by Pagefind
+  .pagefind-ui__search-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 36px 8px 10px;
+    font-size: 12px;
+    border: 1px solid $search-border-color;
+    border-radius: 2px;
+    background-color: $search-bg;
+    outline: none;
+
+    &:focus {
+      border-color: $search-border-focus;
+      box-shadow: 0 0 3px rgba(51, 102, 204, 0.3);
+    }
+  }
+
+  // Hide default Pagefind icon
+  .pagefind-ui__search-icon {
+    display: none;
+  }
+
+  // Wikipedia-style icon
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    fill: $search-icon-color;
+    pointer-events: none;
+  }
+}
+
+$sidebar-width: 200px;
+$border-color: #a2a9b1;
+$background: #f8f9fa;
+$link-color: #63c0f5;
+$link-hover: #0b0080;
+
+.layout-wiki {
+  display: flex;
+  min-height: 25vh;
+  font-family: sans-serif;
+}
+
+/* Sidebar styles */
+.sidebar-wiki {
+  min-width: $sidebar-width;
+  border-right: 1px solid $border-color;
+  padding-right: .7rem;
+  box-sizing: border-box;
+  font-size: 14px;
+
+  nav {
+    h3 {
+      font-size: 1em;
+      margin: 1em 0 0.5em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.2em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1em;
+
+      li {
+        margin-bottom: 0.5em;
+        list-style-image:none;
+
+        a {
+          color: $link-color;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+            color: $link-hover;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* Main content */
+.content-wiki {
+  flex-grow: 1;
+  padding: .7rem;
+  box-sizing: border-box;
+}
+

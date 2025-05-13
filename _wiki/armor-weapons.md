@@ -1,6 +1,7 @@
 ---
 layout: wiki
 title: Armor and Weapon Types
+base: items
 ---
 
 There are 3 types of armor, each with varying levels of physical damage reduction and other stats

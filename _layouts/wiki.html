@@ -2,7 +2,45 @@
 layout: default
 ---
 
-<article>
-  <h2>{{ page.title }}</h2>
-  {{ content }}
-</article>
+<script src="/pagefind/pagefind-ui.js"></script>
+
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
+
+<div class="layout-wiki">
+  <!-- Mobile Toggle Button -->
+
+  <aside class="sidebar-wiki">
+    <nav>
+      <h3>Search</h3>
+      <div id="search" class="custom-search">
+        <svg class="search-icon" width="10" height="10" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.2 13.6a7 7 0 111.4-1.4l5.4 5.4-1.4 1.4zM3 8a5 5 0 1010 0A5 5 0 003 8"/>
+        </svg>
+      </div>
+      <h3>Content</h3>
+      <ul>
+        <li><a href="{{ "/wiki/home"}}">Wiki Home</a></li>
+        <li><a href="{{ "/wiki/changelog"}}">Changelog</a></li>
+        <li><a href="{{ "/wiki/lore"}}">Lore Home</a></li>
+        <li><a href="{{ "/wiki/items"}}">Items</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content-wiki">
+      <h1>{{ page.title }}</h1>
+      {% if page.base != 'none' and page.base != 'home' %}
+      <a href="{{ "/wiki/home" | prepend: site.baseurl | replace: '//', '/' }}"> < home </a>
+-
+      <a href="{{ "/wiki/" | prepend: site.baseurl | replace: '//', '/' | append: page.base }}"> < {{ page.base }}</a>
+      {% elsif page.base == 'home' %}
+      <a href="{{ "/wiki/home" | prepend: site.baseurl | replace: '//', '/' }}"> < home </a>
+      {% endif %}
+    <p>{{ content }}</p>
+  </main>
+</div>

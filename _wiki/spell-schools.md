@@ -1,6 +1,7 @@
 ---
 layout: wiki
 title: Spell Schools and Damage Types
+base: attributes
 ---
 
 There are 26 Spell Schools in the game, matching up with each of the cooresponding primary or

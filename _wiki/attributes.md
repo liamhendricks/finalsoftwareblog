@@ -1,6 +1,7 @@
 ---
 layout: wiki
 title: Base Attributes and other Stats
+base: home
 ---
 
 ## Base Attributes
