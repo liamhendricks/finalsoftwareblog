@@ -407,3 +407,41 @@ $link-hover: #0b0080;
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  /* Stack sidebar above content */
+  .layout-wiki {
+    flex-direction: column;
+  }
+
+  /* Sidebar becomes full width */
+  .sidebar-wiki {
+    min-width: 100%;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid $border-color;
+    padding: 0.5rem;
+  }
+
+  /* Make search fit naturally */
+  #search.custom-search {
+    max-width: 100%;
+  }
+
+  #search.custom-search .pagefind-ui__search-input {
+    font-size: 14px;
+    padding: 6px 32px 6px 8px;
+  }
+
+  /* Slightly smaller icon */
+  #search.custom-search .search-icon {
+    width: 16px;
+    height: 16px;
+    right: 8px;
+  }
+
+  /* Reduce sidebar heading spacing */
+  .sidebar-wiki nav h3 {
+    margin-top: 0.5em;
+  }
+}
+
