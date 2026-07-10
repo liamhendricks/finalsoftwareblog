@@ -1,6 +1,6 @@
 ---
 title: Building Open world games with Cellblock
-published: true
+published: false
 tag: summoning
 ---
 

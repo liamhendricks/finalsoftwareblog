@@ -27,7 +27,8 @@ I am not one of these developers who got into the industry for 'the money', or c
 my fondest memories are staying up late writing code in neovim, solving problems, and watching the pixels flash across my screen in
 the precise way I told them to. Being in absolute control over everything, making something out of nothing. Programming a computer
 makes you a god of your own discrete world where every new thing you learn allows you to sculpt your world in a new way. I love
-programming. If left alone, I would do it all day every day.
+programming. If left alone, I would do it all day every day. Everything I write here is based on the foundation of that love, and I
+hope that shines through.
 
 ## State of Software Development in June 2026: my silver lining
 
@@ -42,19 +43,20 @@ developing the tools and techniques that are designed to replace me. I can eithe
 my head down and hope to emerge from the storm without being homeless. It feels like shit.
 
 What's even worse, is that these tools were, and continue to be literally trained on stolen data from across the internet. Much of
-that I directly contributed to in open source code I wrote by hand, stack overflow threads and reddit replies. Our own expertise was
-stolen without our consent and force fed to us on the other end in order to make our talents obsolete. Will we benefit from this?
-Not really. Each and every time a non-technical person is awestruck by the capabilities of LLM coding agents, I feel like a small
-piece of my soul is lost. I realize now that these people probably never respected me for the things I could do with a computer.
-The now 20 year personal journey I have been on to improve my skills at programming has become an shattered mirror I now stare in. 
-A sort of dystopian slide-show I am forced to actively participate in, where I am the software engineer of my own demise.
+that I directly contributed to in open source code I wrote by hand, stack overflow threads I found myself in and reddit replies I
+typed out on my phone. Our own expertise was stolen without our consent and force fed to us on the other end in order to make our
+talents obsolete. Will we benefit from this? Not really. Each and every time a non-technical person is awestruck by the capabilities 
+of LLM coding agents, I feel like a small piece of my soul is lost. I realize now that these people probably never respected me for
+the things I could do with a computer. The now 20 year personal journey I have been on to improve my skills at programming has become
+a shattered mirror I now stare in. A sort of dystopian slide-show I am forced to actively participate in, where I am the software
+engineer of my own demise.
 
 > Writing software with AI is shit unless you are already good at writing software without AI
 
 The tech business community has been consuming the Koolaid at a lip purpling rate. They are saying it loud and clear:
 "We want to replace white collar labor". A phrase that will delight everyone! Yet, clearly for this to be a possibility at all,
-Generative AI for writing Software (with a capital S) must have some real world capabilities. I hate to break it to everyone, but AI
-is capable of writing code. I know, it's true, it fucking sucks. However... I am realizing some interesting things about these tools,
+Generative AI for writing Software (with a capital S) must have some real world capabilities. *I hate to break it to everyone, but AI
+is capable of writing code.* I know, it's true, it fucking sucks. However... I am realizing some interesting things about these tools,
 and it gives me hope: **Writing software with AI is shit unless you are already good at writing software without AI.** This is my 
 silver lining, it is the truth, and I cannot imagine that this could ever change in any meaningful way. Allow me to elucidate.
 
@@ -95,8 +97,8 @@ rare feature that had well-defined requirements, which we all know is a unicorn 
 that although an hour and a half of time was saved, I still had to wait until the next day for my coworkers to have time to review
 the code. Did we just 'hurry up and wait'?
 
-To summarize: Spec-driven development is when you spend all your time telling Claude how to exactly write the code you know how to 
-write yourself, and hoping it writes it to your satisfaction. Assuming it does this (even with all the context and structure, it often
+To summarize: *Spec-driven development is when you spend all your time telling Claude how to exactly write the code you know how to 
+write yourself, and hoping it writes it to your satisfaction.* Assuming it does this (even with all the context and structure, it often
 does not), you have saved some time, but also had to pay Anthropic for that. Oh, and by the way - unfortunately a junior developer is 
 not capable of making Claude write code like this. So good luck getting a non-technical grunt to captain this workflow successfully
 one day like our demonic business leaders want.
@@ -116,11 +118,58 @@ for babies.** Some of the least capable people in the tech leadership at your co
 it's funny because it's never going to happen.
 
 Do I even need to explain why? Chances are, you work for a company that can barely manage to build a content blog. But now you think
-you have the expertise to fundamentally change the way software development is done?
+you have the expertise to fundamentally change the way software development is done? And hand the car keys to a hallucinating
+robot while you are locked in the trunk? Good luck!
 
-## Moving fast, hundred exxxing, speed coding slop factories and more
+> If you know how to write the code, give me one good reason why the LLM should write it instead?
+
+I have talked at length about the real world tradeoffs, expectations and capabilities of AI tools in software development. But I still
+don't think it has the future that the LinkedIn bozos are hoping for. What every developer is realizing right now, is that using AI
+tools to write your code has real costs. You are trading speed of development for expertise. You are trading speed of development for
+understanding. You are trading speed of development for an uncritical acceptance of output. These are sometimes perfectly fine tradeoffs
+to make... but surely not always? Is writing lots of code even important? Why is the industry rushing forward to optimize in this one
+single direction? I'm beginning to lose grasp on reality...
+
+HERE WE GO, EXPLAIN ONE THING TO ME: If you know how to write the code, give me one good reason why the LLM should write it instead?
+Speed??? Oh for fucks sake, here we go again. I can think of dozens of ways to finish projects faster at a company, and none of them
+involve how fast text files can get deployed to AWS:
+
+- Product owners not knowing what they want and refusing to respond to clarifying questions: wasted time
+- Meetings with the wrong people attending: wasted time
+- Stakeholders waiting a week to validate features on staging because they were busy: good thing the AI wrote it so fast!
+- Relying on old / bad tools that take more time to use because rebuilding is not prioritized: wasted time
+- Refusing to modernize infrastructure: wasted time
+- Accepting that your build times will be 20 minutes instead of investing time into fixing it: 20 minutes isn't that long!
+- Every app at your company coming packaged with it's own MySQL container in docker-compose for local development instead of just 1:
+hurray, now I am out of storage and must waste time! (sorry that is my axe to grind)
+
+I could literally do this all day.
+
+Fixing any one of these things at your company would increase velocity, but it's not a priority, and never will be. Because each of these
+problems require creative solutions, critical thinking, cooperation, communication and any number of C words. You know what else? None of
+these things can be fixed, or made better by how fast you can deploy text files to AWS. Yet, for some reason it does not occupy the same
+mindspace for your boss as how fast you can fucking write code. So now we should all understand that the reason this shit is being thrust
+upon us in the first place is because the MBA community is a talentless flock of pidgeons who believe they have found the EZ button under
+a banana peel, and now they don't need to do any of that pointless stuff like 'thinking' and 'trying' because the text files are flying
+onto the servers at record speed. 
+
+You can think of using AI to write your code the same way as using a SaaS product. You use a SaaS product when you just want the some
+specific output, and do not care to be responsible for anything that happens in between. When you use AI to write code, you are 
+essentially turning the tech at your own company into a SaaS product for yourself. This is a perfectly reasonable thing to do for many
+projects, but... again... surely not always??? Why wouldn't you aspire to understand how your own software works? All the important
+bits that make your software unique, that make your company money, that define business rules, or processes... I am not buying a future
+where a hallucinating anti-humanity device is trusted to just 'handle all that shit'.
 
 ## Where Software Development ends up
 
-# TODO
-- ai can't do innovation
+In the future, I believe we will use AI for all those little projects that don't matter. The things we used to pay SaaS companies to just
+do for us so we don't have to think about it. All the critical stuff should be written mostly by hand and understood by a human being. I
+will die on that hill. The smart folks will use locally running models, lightweight agent harnesses, and restrict code generation to 
+boilerplate, hyper-targeted agent skills for recurring tasks (and mostly just for tool calling) and any number of random things that are
+tedious, not fun or useful to write, and don't require any technical understanding. The folks who do this will stay ahead due to pure
+competence and technical expertise. I don't care that one person can shit out 30k lines of code per day, that means nothing to me.
+
+## Final thoughts, please don't stop learning how to code
+
+We are investing the technical knowledge of a generation into markdown files instead of junior developers who will become the seniors of
+the future. Don't let it be you too. Don't let them win. 
