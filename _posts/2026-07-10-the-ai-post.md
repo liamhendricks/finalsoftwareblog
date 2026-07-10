@@ -30,7 +30,7 @@ makes you a god of your own discrete world where every new thing you learn allow
 programming. If left alone, I would do it all day every day. Everything I write here is based on the foundation of that love, and I
 hope that shines through.
 
-## State of Software Development in June 2026: my silver lining
+## State of Software Development in mid 2026: silver lining?
 
 Like most programmers I woke up one day and was commanded to use AI tools to do my job. I watched the layoffs happen, and often they
 happened to people who were most vocal about their AI skepticism, or pushing back on offshoring practices. I guess I had the good 
