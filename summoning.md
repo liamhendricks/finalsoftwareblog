@@ -12,14 +12,16 @@ for a playable demo in the future.
   {% if site.posts[0] %}
 
     <h3>Posts about Summoning</h3>
+    {% assign started = false %}
     {%for post in site.posts %}
       {% if post.tag contains page.tag-name %}
-        {% unless post.next %}
+        {% unless started %}
+          {% assign started = true %}
           <ul>
         {% else %}
           {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-          {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-          {% if year != nyear %}
+          {% capture pyear %}{{ post.previous.date | date: '%Y' }}{% endcapture %}
+          {% if year != pyear %}
             </ul>
             <h3>{{ post.date | date: '%Y' }}</h3>
             <ul>
