@@ -43,12 +43,14 @@ for a playable demo in the future.
 
   <h3>Dev screenshots</h3>
 
+{% include bilboard_image.html image-path="/assets/ss2.png" %}
+{% include bilboard_image.html image-path="/assets/ss12.png" %}
+{% include bilboard_image.html image-path="/assets/ss11.png" %}
 {% include bilboard_image.html image-path="/assets/character-creation3.png" %}
 {% include bilboard_image.html image-path="/assets/character-creation4.png" %}
 {% include bilboard_image.html image-path="/assets/statue.png" %}
 {% include bilboard_image.html image-path="/assets/ss1.png" %}
 {% include bilboard_image.html image-path="/assets/ss9.png" %}
-{% include bilboard_image.html image-path="/assets/ss2.png" %}
 {% include bilboard_image.html image-path="/assets/ss10.png" %}
 {% include bilboard_image.html image-path="/assets/assets1.png" %}
 {% include bilboard_image.html image-path="/assets/ss3.png" %}

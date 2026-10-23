@@ -56,3 +56,6 @@ Loyal to the High King. Located in the town of [Millenhaven](/wiki/millenhaven).
 Notable Characters:
 
 - [Duke Aleksandr Lundestrom: Duke of Millenhaven](/wiki/aleksandr-lundestrom)
+
+### Mage's Guild
+
